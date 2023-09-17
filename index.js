@@ -6,7 +6,7 @@ app.set('view engine', 'ejs');
 app.use(body.urlencoded({extended:true}))
 app.use(express.static("public"))
 
-mongoose.connect("mongodb+srv://Bipin:<bipin123>@cluster0.5zmsh59.mongodb.net/tododb",{useNewurlParser:true})
+mongoose.connect("mongodb+srv://BIPIN:<bipin123>@cluster0.5zmsh59.mongodb.net/tododb",{useNewurlParser:true})
 
 const todoschema= new mongoose.Schema({task:String})
 
